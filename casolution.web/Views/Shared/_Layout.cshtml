@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--tab icon and title-->
+    <link rel="icon" type="image/png" sizes="114x114" href="~/images/title/caFont.png">    
+  
+    <title>CA Solutions&trade; &bull; @ViewData["Title"]</title>
+
+
+    @await Html.PartialAsync("~/Views/Components/Preloader/_Preloader.cshtml")
+
+    @await Html.PartialAsync("~/Views/Shared/_TopScriptPartial.cshtml")
+
+    <link href="~/footer/StyleSheet.css" rel="stylesheet" />
+
+
+</head>
+<body style="background-image:url(/images/background.jpg)">
+
+
+    @await Html.PartialAsync("~/Views/Components/MainMenu/_MainMenu.cshtml")
+
+    <div class="container-fluid" style="padding:0px">
+
+        @RenderBody()
+
+    </div>
+
+    @await Html.PartialAsync("~/Views/Components/Footer/_Footer.cshtml")
+
+
+    @await Html.PartialAsync("~/Views/Shared/_BottomScriptPartial.cshtml")
+
+    @await Html.PartialAsync("~/Views/Components/ScrollTop/_ScrollTop.cshtml")
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+
+
+</body>
+</html>

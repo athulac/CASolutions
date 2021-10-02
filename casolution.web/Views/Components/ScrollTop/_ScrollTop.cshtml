@@ -1,0 +1,29 @@
+﻿
+
+
+<link href="~/scrollTop/topscroll.css" rel="stylesheet" />
+
+
+<a style="z-index: 1000" id="s" class="go-top"><i class="fas fa-arrow-up"></i></a>
+
+<script>
+        /*Add class when scroll down*/
+
+        $(window).scroll(function (event) {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 50) {
+                $(".go-top").addClass("show");
+            } else {
+                $(".go-top").removeClass("show");
+            }
+        });
+
+
+        $('#s').click(function () {
+            var body = $("html, body");
+            body.stop().animate({
+                scrollTop: 0
+            }, 1500, 'swing');
+
+        });
+</script>
