@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casoluiton.Service\\Casoluiton.Service.csproj",
+      "projectUniqueName": "C:\\CASolutions\\Casoluiton.Service\\Casoluiton.Service.csproj",
       "projectName": "Casoluiton.Service",
-      "projectPath": "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casoluiton.Service\\Casoluiton.Service.csproj",
+      "projectPath": "C:\\CASolutions\\Casoluiton.Service\\Casoluiton.Service.csproj",
       "packagesPath": "C:\\Users\\Athula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casoluiton.Service\\obj\\",
+      "outputPath": "C:\\CASolutions\\Casoluiton.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Athula\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casolution.Migration\\Casolution.Migration.csproj",
+      "projectUniqueName": "C:\\CASolutions\\Casolution.Migration\\Casolution.Migration.csproj",
       "projectName": "Casolution.Migration",
-      "projectPath": "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casolution.Migration\\Casolution.Migration.csproj",
+      "projectPath": "C:\\CASolutions\\Casolution.Migration\\Casolution.Migration.csproj",
       "packagesPath": "C:\\Users\\Athula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casolution.Migration\\obj\\",
+      "outputPath": "C:\\CASolutions\\Casolution.Migration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Athula\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casolution.Domain\\Casolution.Domain.csproj": {}
+    "C:\\CASolutions\\Casolution.Domain\\Casolution.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casolution.Domain\\Casolution.Domain.csproj": {
+    "C:\\CASolutions\\Casolution.Domain\\Casolution.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casolution.Domain\\Casolution.Domain.csproj",
+        "projectUniqueName": "C:\\CASolutions\\Casolution.Domain\\Casolution.Domain.csproj",
         "projectName": "Casolution.Domain",
-        "projectPath": "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casolution.Domain\\Casolution.Domain.csproj",
+        "projectPath": "C:\\CASolutions\\Casolution.Domain\\Casolution.Domain.csproj",
         "packagesPath": "C:\\Users\\Athula\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casolution.Domain\\obj\\",
+        "outputPath": "C:\\CASolutions\\Casolution.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Athula\\AppData\\Roaming\\NuGet\\NuGet.Config",

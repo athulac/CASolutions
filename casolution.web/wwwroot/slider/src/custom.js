@@ -45,17 +45,21 @@ $(document).ready(function(){
 
     /**
      * Control the slider by scrolling
-     */
-    $(window).bind('mousewheel', function(event) {
-        if(!sliding){
-            if(event.originalEvent.deltaY > 0){
-                mainslider.nextSlide();
+     */   
+
+    $(window).bind('mousewheel', function (event) {
+        if ($(window).width() >= 1280) {
+            if (!sliding) {
+                if (event.originalEvent.deltaY > 0) {
+                    mainslider.nextSlide();
+                }
+                else {
+                    mainslider.prevSlide();
+                }
             }
-            else{
-                mainslider.prevSlide();
-            }
-        }
+        }            
     });
+    
 
     $(".slide#first").backstretch("slider/images/bg1.jpg");
     $(".slide#sec").backstretch("slider/images/bg2.jpg");

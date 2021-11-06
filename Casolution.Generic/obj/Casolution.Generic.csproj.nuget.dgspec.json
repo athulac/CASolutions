@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casolution.Generic\\Casolution.Generic.csproj": {}
+    "C:\\CASolutions\\Casolution.Generic\\Casolution.Generic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casolution.Generic\\Casolution.Generic.csproj": {
+    "C:\\CASolutions\\Casolution.Generic\\Casolution.Generic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casolution.Generic\\Casolution.Generic.csproj",
+        "projectUniqueName": "C:\\CASolutions\\Casolution.Generic\\Casolution.Generic.csproj",
         "projectName": "Casolution.Generic",
-        "projectPath": "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casolution.Generic\\Casolution.Generic.csproj",
+        "projectPath": "C:\\CASolutions\\Casolution.Generic\\Casolution.Generic.csproj",
         "packagesPath": "C:\\Users\\Athula\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Athula\\source\\repos\\CaSolutions\\Casolution.Generic\\obj\\",
+        "outputPath": "C:\\CASolutions\\Casolution.Generic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Athula\\AppData\\Roaming\\NuGet\\NuGet.Config",
