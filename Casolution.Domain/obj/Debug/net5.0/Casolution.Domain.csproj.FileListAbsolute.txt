@@ -1,0 +1,11 @@
+C:\CASolutions\Casolution.Domain\bin\Debug\net5.0\Casolution.Domain.deps.json
+C:\CASolutions\Casolution.Domain\bin\Debug\net5.0\Casolution.Domain.dll
+C:\CASolutions\Casolution.Domain\bin\Debug\net5.0\ref\Casolution.Domain.dll
+C:\CASolutions\Casolution.Domain\bin\Debug\net5.0\Casolution.Domain.pdb
+C:\CASolutions\Casolution.Domain\obj\Debug\net5.0\Casolution.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\CASolutions\Casolution.Domain\obj\Debug\net5.0\Casolution.Domain.AssemblyInfoInputs.cache
+C:\CASolutions\Casolution.Domain\obj\Debug\net5.0\Casolution.Domain.AssemblyInfo.cs
+C:\CASolutions\Casolution.Domain\obj\Debug\net5.0\Casolution.Domain.csproj.CoreCompileInputs.cache
+C:\CASolutions\Casolution.Domain\obj\Debug\net5.0\Casolution.Domain.dll
+C:\CASolutions\Casolution.Domain\obj\Debug\net5.0\ref\Casolution.Domain.dll
+C:\CASolutions\Casolution.Domain\obj\Debug\net5.0\Casolution.Domain.pdb
