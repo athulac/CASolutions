@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\CASolutions\casolution.web\bin\Release\net5.0\publish\</_PublishTargetUrl>
-    <History>True|2021-11-06T15:57:43.5035803Z;True|2021-11-06T19:25:56.8128098+05:30;</History>
+    <History>True|2021-11-18T13:21:30.3818224Z;True|2021-11-06T21:27:43.5035803+05:30;True|2021-11-06T19:25:56.8128098+05:30;</History>
   </PropertyGroup>
 </Project>

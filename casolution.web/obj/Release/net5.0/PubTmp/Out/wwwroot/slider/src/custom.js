@@ -13,13 +13,13 @@ $(document).ready(function(){
         animateDuration: 1000, // Duration of an animation
         animationEasing: 'ease', // Accepts: linear ease in out in-out snap easeOutCubic easeInOutCubic easeInCirc easeOutCirc easeInOutCirc easeInExpo easeOutExpo easeInOutExpo easeInQuad easeOutQuad easeInOutQuad easeInQuart easeOutQuart easeInOutQuart easeInQuint easeOutQuint easeInOutQuint easeInSine easeOutSine easeInOutSine easeInBack easeOutBack easeInOutBack
         pauseOnHover: true, // Pause when user hovers the slide container
-        magneticSwipe: true,//($(window).width() >= 1280), // This will attach the slides to the mouse's position when swiping/dragging
+        magneticSwipe: ($(window).width() >= 1280),//($(window).width() >= 1280), // This will attach the slides to the mouse's position when swiping/dragging
         neverEnding: true // Enable this to create a 'neverending' effect.
     };
 
     $(".box").click(function () {
         $('html,body').animate({
-            scrollTop: $(".box-parent").height()
+            scrollTop: ($(".box-parent").height()-100)
         }, 'slow');
     });
 
