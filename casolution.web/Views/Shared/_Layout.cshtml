@@ -6,8 +6,7 @@
     <!--tab icon and title-->
     <link rel="icon" type="image/png" sizes="114x114" href="~/images/title/caFont.png">    
   
-    <title>CA Solutions&trade; &bull; @ViewData["Title"]</title>
-
+    <title>CA Solutions&trade; &bull; @(ViewData["Title"]??"Web & Software Development")</title>
 
     @await Html.PartialAsync("~/Views/Components/Preloader/_Preloader.cshtml")
 
@@ -37,8 +36,6 @@
 
 
     @await RenderSectionAsync("Scripts", required: false)
-
-
 
 </body>
 </html>

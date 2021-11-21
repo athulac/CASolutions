@@ -1,17 +1,13 @@
 ﻿
-<div class="container" style="background-color:white">
+<div class="container pb-3" style="background-color: white; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; ">
     <div class="row" style="">
         <img src="~/images/contactUs/contact-banner.jpg" style="width:100%;" />
     </div>
 
-    <div class="row p-4">
-        <div class="col-md-8 p-4" style="">
-            <h2 class="">Message Us</h2>
-            <div class="row p-4"></div>
-
-
-            <form action="https://app.99inbound.com/e/123" method="POST" target="_blank">
-
+    <div class="row">
+        <div class="col-md-8" style="">
+            <h2 class="mt-3 mb-3">Message Us</h2>
+            <form method="POST" target="_blank">
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-prepend">
@@ -19,10 +15,9 @@
                                 <i class="fa fa-user"></i>&nbsp
                             </span>
                         </div>
-                        <input name="name" type="name" placeholder="Name" class="form-control border-left-0" required>
+                        <input name="name" type="text" placeholder="Name" class="form-control border-left-0" required>
                     </div>
                 </div>
-
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-prepend">
@@ -33,7 +28,6 @@
                         <input name="email" type="email" placeholder="Email" class="form-control border-left-0" required>
                     </div>
                 </div>
-
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-prepend">
@@ -44,24 +38,18 @@
                         <input name="phone" type="text" placeholder="Phone" class="form-control border-left-0" required>
                     </div>
                 </div>
-
                 <div class="form-group">
                     <textarea class="form-control" id="message" rows="5" placeholder="Enter message" required></textarea>
                 </div>
-
                 <button type="submit" class="btn btn-primary float-right">
                     <i class="fa fa-paper-plane"></i>
                     &ensp; Send Message
                 </button>
             </form>
-
-
-
         </div>
-        <div class="col-md-4 p-4" style="">
-            <h2 class="">Connect</h2>
-            <div class="row p-4"></div>
-
+      
+        <div class="col-md-4" style="">
+            <h2 class="mt-3 mb-3">Connect</h2>
             <ul id="contact">
                 <li><h4><i class="fa fa-map-marker-alt"></i>&ensp; Address</h4></li>
                 <li><address>CA Solutions</address></li>
@@ -80,58 +68,59 @@
 
             </ul>
         </div>
-        <div class="col-md-8 p-4" style="">
+    </div>
 
+    <div class="row" style="height:35px"></div>
 
-            <div id="map_populate" style="width:100%; height:500px; border: 5px solid #5E5454;">
-
-            </div>
+    <div class="row">
+        <div class="col-md-12" style="">
+            <div id="map_populate" style="width:100%; height:500px; border: 5px solid #5E5454;"></div>
         </div>
-
-    <div class="row p-4"></div>
+    </div>
+      
 </div>
 
-<style>
-    #contact > li > address,
-    #contact > li > a {
-        padding-left: 40px
-    }
-
-    #contact > li > h4 {
-        padding-bottom: 10px
-    }
-</style>
-
-
-<!DOCTYPE link href="https://maps/documentation/javascript/examples/default.css" rel="stylesheet">
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
-<script>
-
-    var mapcode;
-    var diag;
-    function initialize() {
-        mapcode = new google.maps.Geocoder();
-        var lnt = new google.maps.LatLng(6.647732, 80.701408);
-        var diagChoice = {
-            zoom: 15,
-            center: lnt,
-            diagId: google.maps.MapTypeId.ROADMAP
+    <style>
+        #contact > li > address,
+        #contact > li > a {
+            padding-left: 40px
         }
-        diag = new google.maps.Map(document.getElementById('map_populate'), diagChoice);
-    }
-    function getmap() {
-        var completeaddress = document.getElementById('txt_location').value;
-        mapcode.geocode({ 'address': completeaddress }, function (results, status) {
-            if (status == google.maps.GeocoderStatus.OK) {
-                diag.setCenter(results[0].geometry.location);
-                var hint = new google.maps.Marker({
-                    diag: diag,
-                    position: results[0].geometry.location
-                });
-            } else {
-                alert('Location Not Tracked. ' + status);
+
+        #contact > li > h4 {
+            padding-bottom: 10px
+        }
+    </style>
+
+
+    <!DOCTYPE link href="https://maps/documentation/javascript/examples/default.css" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
+    <script>
+
+        var mapcode;
+        var diag;
+        function initialize() {
+            mapcode = new google.maps.Geocoder();
+            var lnt = new google.maps.LatLng(6.647732, 80.701408);
+            var diagChoice = {
+                zoom: 15,
+                center: lnt,
+                diagId: google.maps.MapTypeId.ROADMAP
             }
-        });
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+            diag = new google.maps.Map(document.getElementById('map_populate'), diagChoice);
+        }
+        function getmap() {
+            var completeaddress = document.getElementById('txt_location').value;
+            mapcode.geocode({ 'address': completeaddress }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    diag.setCenter(results[0].geometry.location);
+                    var hint = new google.maps.Marker({
+                        diag: diag,
+                        position: results[0].geometry.location
+                    });
+                } else {
+                    alert('Location Not Tracked. ' + status);
+                }
+            });
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>

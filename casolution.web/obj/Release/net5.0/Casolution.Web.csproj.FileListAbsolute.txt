@@ -100,3 +100,4 @@ C:\CASolutions\casolution.web\obj\Release\net5.0\ref\Casolution.Web.dll
 C:\CASolutions\casolution.web\obj\Release\net5.0\Casolution.Web.pdb
 C:\CASolutions\casolution.web\obj\Release\net5.0\Casolution.Web.genruntimeconfig.cache
 C:\CASolutions\casolution.web\obj\Release\net5.0\Casolution.Web.csproj.CopyComplete
+C:\CASolutions\casolution.web\obj\Release\net5.0\Razor\Views\Components\PriceList\_PriceList.cshtml.g.cs
