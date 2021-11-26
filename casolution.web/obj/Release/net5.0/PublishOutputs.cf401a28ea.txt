@@ -1746,6 +1746,7 @@ C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\about
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\aboutUs\technology\vscode.jpg
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\aboutUs\technology\vue.png
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\background.jpg
+C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\background2.jpg
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\ca-solutions.png
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\contactUs\contact-banner.jpg
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\foffoter.png
@@ -1763,6 +1764,7 @@ C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\title
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\title\caFont.png
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\title\caFontw.png
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\title\title.png
+C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\title\unnamed.jpg
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\user.jpg
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\js\site.js
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
