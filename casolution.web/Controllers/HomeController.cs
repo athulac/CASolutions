@@ -38,5 +38,11 @@ namespace casolution.web.Controllers
         {
             return View();
         }
+
+        [Route("more-about/{id?}")]
+        public IActionResult MoreAbout(int id)
+        {
+            return View();
+        }
     }
 }

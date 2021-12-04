@@ -1,5 +1,20 @@
 ﻿
 
+@font-face {
+    font-family: 'LaBelleAurore-Regular';
+    src: url('../fonts/LaBelleAurore/DancingScript-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Merienda-Regular';
+    src: url('../fonts/LaBelleAurore/Merienda-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumGothic-Regular';
+    src: url('../fonts/NanumGothic/NanumGothic-Regular.ttf') format('truetype');
+}
+
 
 @font-face {
     font-family: 'SignikaNegative-Regular';
@@ -9,4 +24,9 @@
 @font-face {
     font-family: 'SignikaNegative-Light';
     src: url('../fonts/SignikaNegative/SignikaNegative-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Courgette-Regular';
+    src: url('../fonts/Courgette-Regular/Courgette-Regular.ttf') format('truetype');
 }

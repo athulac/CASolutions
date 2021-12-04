@@ -51,6 +51,7 @@ namespace casolution.web
                 endpoints.MapControllerRoute(name: "/", pattern: "{action=Index}/{id?}", defaults: new { controller = "Home" });
                 endpoints.MapControllerRoute(name: "home", pattern: "{action=Index}/{id?}", defaults: new { controller = "Home" });
                 endpoints.MapControllerRoute(name: "about", pattern: "{action=About}/{id?}", defaults: new { controller = "Home" });
+                endpoints.MapControllerRoute(name: "more-about", pattern: "{action=MoreAbout}/{id?}", defaults: new { controller = "Home" });
                 //endpoints.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }

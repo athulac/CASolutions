@@ -2,7 +2,8 @@
 .pricingTable {
     background: #fff;
     padding-bottom: 20px;
-    overflow: hidden
+    overflow: hidden;
+    border-radius: 12px;
 }
 
     .pricingTable .pricingTable-header {
@@ -15,19 +16,20 @@
             content: "";
             width: 100%;
             height: 150%;
-            background: #606aa3;
+            background: #000ac4;
             position: absolute;
             top: -90%;
             left: -20%;
             z-index: -1;
-            transform: rotate(-42deg)
+            transform: rotate(-42deg);
+            border-radius: 20px;
         }
 
         .pricingTable .pricingTable-header:after {
             content: "";
             width: 100%;
             height: 190%;
-            background: #727cb6;
+            background: #2c35d5;
             position: absolute;
             top: -76%;
             right: -16%;
@@ -79,7 +81,7 @@
 
         .pricingTable .pricing-content li {
             font-size: 17px;
-            color: #828282;
+            color: #212121;
             line-height: 40px
         }
 
@@ -88,11 +90,11 @@
         width: 80%;
         padding: 10px 0;
         text-align: center;
-        border: 1px solid #606aa3;
+        border: 1px solid #000ac4;
         border-radius: 40px;
         margin: 0 auto;
         font-size: 18px;
-        color: #606aa3;
+        color: #000ac4;
         z-index: 1;
         text-transform: uppercase;
         overflow: hidden;
@@ -110,13 +112,13 @@
         }
 
         .pricingTable .pricingTable-signup:before {
-            border-color: transparent transparent transparent #606aa3;
+            border-color: transparent transparent transparent #000ac4;
             bottom: 0;
             left: 0
         }
 
         .pricingTable .pricingTable-signup:after {
-            border-color: transparent #606aa3 transparent transparent;
+            border-color: transparent #000ac4 transparent transparent;
             top: 0;
             right: 0
         }
@@ -131,12 +133,12 @@
     }
 
     .pricingTable.green .pricingTable-header:after {
-        background: #1abc9c
+        background: #01cba3
     }
 
     .pricingTable.green .pricingTable-signup {
-        border-color: #1abc9c;
-        color: #1abc9c
+        border-color: #01cba3;
+        color: #01cba3
     }
 
         .pricingTable.green .pricingTable-signup:before {
@@ -148,45 +150,45 @@
         }
 
     .pricingTable.orange .pricingTable-header:before {
-        background: #ee6e00
+        background: #895500
     }
 
     .pricingTable.orange .pricingTable-header:after {
-        background: #e67e22
+        background: #d16f00
     }
 
     .pricingTable.orange .pricingTable-signup {
-        border-color: #e67e22;
-        color: #e67e22
+        border-color: #d16f00;
+        color: #d16f00
     }
 
         .pricingTable.orange .pricingTable-signup:before {
-            border-color: transparent transparent transparent #ee6e00
+            border-color: transparent transparent transparent #895500
         }
 
         .pricingTable.orange .pricingTable-signup:after {
-            border-color: transparent #ee6e00 transparent transparent
+            border-color: transparent #895500 transparent transparent
         }
 
     .pricingTable.purple .pricingTable-header:before {
-        background: #b14468
+        background: #b40001
     }
 
     .pricingTable.purple .pricingTable-header:after {
-        background: #cf4d78
+        background: #d72a2b
     }
 
     .pricingTable.purple .pricingTable-signup {
-        border-color: #cf4d78;
-        color: #cf4d78
+        border-color: #d72a2b;
+        color: #d72a2b
     }
 
         .pricingTable.purple .pricingTable-signup:before {
-            border-color: transparent transparent transparent #b14468
+            border-color: transparent transparent transparent #b40001
         }
 
         .pricingTable.purple .pricingTable-signup:after {
-            border-color: transparent #b14468 transparent transparent
+            border-color: transparent #b40001 transparent transparent
         }
 
 @media only screen and (max-width:990px) {
@@ -227,17 +229,17 @@
 
 
 .bg-green {
-    background: #1abc9c1f !important;
+    background: #01cba31f !important;
 }
 
 .bg-blue {
-    background: #727cb629 !important;
+    background: #2c35d529 !important;
 }
 
 .bg-organge {
-    background: #e67e221f !important;
+    background: #d16f001f !important;
 }
 
 .bg-red {
-    background: #cf4d7826 !important;
+    background: #d72a2b26 !important;
 }

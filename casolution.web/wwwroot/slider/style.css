@@ -1,17 +1,3 @@
-@font-face {
-    font-family: 'LaBelleAurore-Regular';
-    src: url('../fonts/LaBelleAurore/DancingScript-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Merienda-Regular';
-    src: url('../fonts/LaBelleAurore/Merienda-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'NanumGothic-Regular';
-    src: url('../fonts/NanumGothic/NanumGothic-Regular.ttf') format('truetype');
-}
 
 
 html, body {
@@ -139,17 +125,19 @@ header#top {
 
                 .pageblock#fullscreen .slider .slide .slidecontent h4 {
                     font-family: Merienda-Regular;
+                    text-shadow: 2px 2px 3px #000;
                 }
 
                 .pageblock#fullscreen .slider .slide .slidecontent p {
                     color: #fff;
-                    font-family: LaBelleAurore-Regular;
+                    font-family: Courgette-Regular;
+                    text-shadow: 2px 2px 3px #000;
                 }
 
 @media(min-width:991px) {
 
     .pageblock#fullscreen .slider .slide .slidecontent p {
-        font-size: 22px;
+        font-size: 16px;
     }
 }
 

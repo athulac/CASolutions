@@ -1706,6 +1706,7 @@ C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\fontawesome\
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\fontawesome\webfonts\fa-solid-900.ttf
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\fontawesome\webfonts\fa-solid-900.woff
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\fontawesome\webfonts\fa-solid-900.woff2
+C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\fonts\Courgette-Regular\Courgette-Regular.ttf
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\fonts\FontDefines.css
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\fonts\HindVadodara\HindVadodara-Bold.ttf
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\fonts\HindVadodara\HindVadodara-Light.ttf
