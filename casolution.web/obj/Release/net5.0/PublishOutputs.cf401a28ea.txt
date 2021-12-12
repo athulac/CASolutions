@@ -1761,6 +1761,7 @@ C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\foote
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\footer\meeting\teams.png
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\footer\meeting\zoom.png
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\fowwwoter.png
+C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\moreAbout\MoreAbout.jpg
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\title\ca.png
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\title\caFont.png
 C:\CASolutions\casolution.web\obj\Release\net5.0\PubTmp\Out\wwwroot\images\title\caFontw.png
