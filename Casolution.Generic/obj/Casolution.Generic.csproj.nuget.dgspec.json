@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CASolutions\\Casolution.Generic\\Casolution.Generic.csproj": {}
+    "D:\\CASolutions\\Casolution.Generic\\Casolution.Generic.csproj": {}
   },
   "projects": {
-    "C:\\CASolutions\\Casolution.Generic\\Casolution.Generic.csproj": {
+    "D:\\CASolutions\\Casolution.Generic\\Casolution.Generic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CASolutions\\Casolution.Generic\\Casolution.Generic.csproj",
+        "projectUniqueName": "D:\\CASolutions\\Casolution.Generic\\Casolution.Generic.csproj",
         "projectName": "Casolution.Generic",
-        "projectPath": "C:\\CASolutions\\Casolution.Generic\\Casolution.Generic.csproj",
+        "projectPath": "D:\\CASolutions\\Casolution.Generic\\Casolution.Generic.csproj",
         "packagesPath": "C:\\Users\\Athula\\.nuget\\packages\\",
-        "outputPath": "C:\\CASolutions\\Casolution.Generic\\obj\\",
+        "outputPath": "D:\\CASolutions\\Casolution.Generic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Athula\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

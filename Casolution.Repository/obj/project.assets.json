@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CASolutions\\Casolution.Repository\\Casolution.Repository.csproj",
+      "projectUniqueName": "D:\\CASolutions\\Casolution.Repository\\Casolution.Repository.csproj",
       "projectName": "Casolution.Repository",
-      "projectPath": "C:\\CASolutions\\Casolution.Repository\\Casolution.Repository.csproj",
+      "projectPath": "D:\\CASolutions\\Casolution.Repository\\Casolution.Repository.csproj",
       "packagesPath": "C:\\Users\\Athula\\.nuget\\packages\\",
-      "outputPath": "C:\\CASolutions\\Casolution.Repository\\obj\\",
+      "outputPath": "D:\\CASolutions\\Casolution.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Athula\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

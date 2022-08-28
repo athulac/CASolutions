@@ -6,6 +6,25 @@
 }
 
 
+/*menu overrid*/
+
+@media (min-width: 992px) {
+    .scroll-to-section-signin-override {
+        border-top-left-radius: 25px !important;
+        border: solid 1px #cb656f85 !important;
+        border-right: none !important;
+        border-bottom-left-radius: 25px !important;
+    }
+
+    .scroll-to-section-signup-override {
+        background: #cb656f85 !important;
+        border: solid 0px #cb656f85 !important;
+        border-left: none !important;
+        border-top-right-radius: 25px !important;
+        border-bottom-right-radius: 25px !important;
+    }
+}
+
 
 
 

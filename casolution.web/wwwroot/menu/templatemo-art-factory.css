@@ -410,15 +410,15 @@ header
 }
 
 .header-area .main-nav .nav li:last-child {
-  padding-right: 0px;
+  /*padding-right: 0px;*/
 }
 
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
